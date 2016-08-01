@@ -6,7 +6,10 @@ module.exports = function(neatly) {
 	return {
 		wrap: function(module, mocks) {
 			return function bootsrap(configHandler) {
-				let _module = neatly.module('wrapped', [module, ...mocks||[]]);
+
+				let deps = [module].concat(mocks||[]);
+
+				let _module = neatly.module('wrapped', deps);
 				if(configHandler) {
 					_module.config(configHandler);
 				}
