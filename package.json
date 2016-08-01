@@ -8,8 +8,8 @@
       "url": "https://github.com/platdesign"
     }
   ],
-  "version": "0.0.0",
+  "version": "0.0.1",
   "dependencies": {},
-  "repository":"git@github.com:node-neatly/neatly-driller.git",
-  "homepage":"https://github.com/node-neatly/neatly-driller"
+  "repository": "git@github.com:node-neatly/neatly-driller.git",
+  "homepage": "https://github.com/node-neatly/neatly-driller"
 }
